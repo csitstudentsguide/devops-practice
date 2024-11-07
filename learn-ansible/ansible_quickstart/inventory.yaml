@@ -1,0 +1,11 @@
+pl1_linux_hosts:
+  hosts:
+    pl1-02:
+      ansible_host: sirpl1-02-linux.local
+    pl1-21:
+      ansible_host: sirpl1-21-linux.local
+
+  vars:
+    ansible_user: ladmin
+
+

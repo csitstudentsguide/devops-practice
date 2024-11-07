@@ -6,9 +6,9 @@
 
 
 
-Here, I am going to follow the Ansible tutorial from [Ansible's official website] (https://www.ansible.com/ "Ansible's official website").
+Here, I am going to follow the Ansible tutorial from [Ansible's official website](https://www.ansible.com/).
 
-Find [Introduction to Ansible] (https://docs.ansible.com/ansible/latest/getting_started/introduction.html?extIdCarryOver=true&sc_cid=701f2000001OH6uAAG) on this page, and start working ahead.
+Find [Introduction to Ansible](https://docs.ansible.com/ansible/latest/getting_started/introduction.html?extIdCarryOver=true&sc_cid=701f2000001OH6uAAG) on this page, and start working ahead.
 
 For this tutorial, I am going to use my system as Ubuntu 22.04 desktop.
 

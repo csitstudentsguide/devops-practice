@@ -1,0 +1,107 @@
+- name: All Windows plays
+  hosts: all
+  gather_facts: false
+
+  vars:
+    mac_list: []
+
+  tasks: 
+    # - name: Poweron all systems using wakeonlan
+    #   community.general.wakeonlan:        
+    #     mac: "{{ item }}"
+    #     broadcast: 255.255.255.255
+    #     port: 9        
+    #   loop: "{{ mac_list }}"
+    #   delegate_to: localhost
+
+    # - name: Ping all Windows systems
+    #   ansible.builtin.win_ping:       
+
+    # - name: Send message to Windows user
+    #   community.windows.win_msg:
+    #     display_seconds: 60
+    #     msg: "Hello students!"
+    #     to: "student"
+        
+    # - name: Copy files
+    #   ansible.windows.win_copy:
+    #     src: filename
+    #     dest: D:\filename
+
+    # - name: Copy folder
+    #   ansible.windows.win_copy:
+    #     src: foldername
+    #     dest: D:\foldername
+    
+    # - name: Remove files
+    #   ansible.windows.win_file:
+    #     path: filename
+    #     state: absent   
+
+    # - name: Remove folder
+    #   ansible.windows.win_file:
+    #     path: D:\foldername
+    #     state: absent
+
+    # - name: Set a proxy for specific protocols
+    #   community.windows.win_http_proxy:
+    #     proxy:
+    #       http: http://hostname:3128
+    #       https: http://hostname:3128
+    #       ftp: http://hostname:3128
+    #       socks: http://hostname:3128
+
+    # - name: Install all updates and reboot as many times as needed
+    #   ansible.windows.win_updates:
+    #     category_names: '*'
+    #     reboot: true
+    
+    # - name: Install select updates and reboot as many times as needed
+    #   ansible.windows.win_updates:
+    #     category_names:
+    #       - CriticalUpdates
+    #       - SecurityUpdates
+    #     state: installed
+    #     reboot: true
+    #     #log_path: C:\windowsupdates.txt   
+
+    # - name: Add user account with expiration date never
+    #   ansible.windows.win_user:
+    #     name: student1
+    #     password: student1
+    #     state: present
+    #     groups:
+    #       - Users
+    #     account_expires: never
+    #     password_never_expires: true
+    #     user_cannot_change_password: true
+
+    # - name: Delete user account
+    #   ansible.windows.win_user:
+    #     name: student1
+    #     password: student1
+    #     state: absent
+  
+    # - name: Shutdown systems in zero seconds
+    #   ansible.windows.win_command:
+    #     cmd: shutdown -s -t 00
+    
+    # - name: Delete partition
+    #   community.windows.win_partition:
+    #     disk_number: 0
+    #     partition_number: 4
+    #     drive_letter: D
+    #     state: absent
+
+    # - name: Create a partition with drive letter D and size to fill all
+    #   community.windows.win_partition:
+    #     drive_letter: D
+    #     partition_size: -1
+    #     disk_number: 0
+              
+    # - name: Quick format a partition as NTFS withlabel
+    #   community.windows.win_format:
+    #     drive_letter: D
+    #     file_system: NTFS
+    #     new_label: Data
+    #     full: false

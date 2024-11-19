@@ -1,0 +1,65 @@
+pl1_linux_hosts:
+  hosts:
+    pl1-1:
+      ansible_host: sirpl1-01-linux.local
+    pl1-2:
+      ansible_host: sirpl1-02-linux.local
+    pl1-3:
+      ansible_host: sirpl1-03-linux.local
+    pl1-4:
+      ansible_host: sirpl1-04-linux.local
+    pl1-5:
+      ansible_host: sirpl1-05-linux.local
+    pl1-6:
+      ansible_host: sirpl1-06-linux.local
+    pl1-7:
+      ansible_host: sirpl1-07-linux.local
+    pl1-8:
+      ansible_host: sirpl1-08-linux.local
+    pl1-9:
+      ansible_host: sirpl1-09-linux.local
+    pl1-10:
+      ansible_host: sirpl1-10-linux.local
+    pl1-11:
+      ansible_host: sirpl1-11-linux.local
+    pl1-12:
+      ansible_host: sirpl1-12-linux.local
+    pl1-13:
+      ansible_host: sirpl1-13-linux.local
+    pl1-14:
+      ansible_host: sirpl1-14-linux.local
+    pl1-15:
+      ansible_host: sirpl1-15-linux.local  
+    pl1-16:
+      ansible_host: sirpl1-16-linux.local
+    pl1-17:
+      ansible_host: sirpl1-17-linux.local
+    pl1-18:
+      ansible_host: sirpl1-18-linux.local
+    pl1-19:
+      ansible_host: sirpl1-19-linux.local
+    pl1-20:
+      ansible_host: sirpl1-20-linux.local
+    pl1-21:
+      ansible_host: sirpl1-21-linux.local
+    pl1-22:
+      ansible_host: sirpl1-22-linux.local
+    pl1-23:
+      ansible_host: sirpl1-23-linux.local
+    pl1-24:
+      ansible_host: sirpl1-24-linux.local
+    pl1-25:
+      ansible_host: sirpl1-25-linux.local
+    pl1-26:
+      ansible_host: sirpl1-26-linux.local
+    pl1-27:
+      ansible_host: sirpl1-27-linux.local
+    pl1-28:
+      ansible_host: sirpl1-28-linux.local
+    pl1-29:
+      ansible_host: sirpl1-29-linux.local
+    pl1-30:
+      ansible_host: sirpl1-30-linux.local  
+
+  vars:
+    ansible_user: ladmin

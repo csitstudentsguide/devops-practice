@@ -1,0 +1,33 @@
+- name: My first play
+  hosts: pl1_linux_hosts  
+  become: true 
+  
+  tasks:
+    # - name: Ping my hosts
+    #   ansible.builtin.ping:
+
+    # - name: Print message
+    #   ansible.builtin.debug:
+    #     msg: Hello world
+
+    # - name: Copy grub file to remote system
+    #   ansible.builtin.copy:
+    #     src: sw-dumps/grub
+    #     dest: /home/ladmin/
+
+    # - name: Copy grub file to default location on remote system
+    #   ansible.builtin.copy:
+    #     src: /home/ladmin/grub
+    #     dest: /etc/default/grub
+    #     remote_src: true
+
+    # - name: Change grub boot order to Windows default
+    #   ansible.builtin.command: update-grub
+
+    # - name: Reboot systems
+    #   ansible.builtin.command: init 6
+    
+
+  vars:
+    ansible_user: "ladmin"
+

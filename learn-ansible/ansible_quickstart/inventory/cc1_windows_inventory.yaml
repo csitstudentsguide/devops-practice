@@ -1,0 +1,133 @@
+cc1_windows_hosts:
+  hosts:
+    cc1-1:
+      ansible_host: sircc1-01152022.local
+    cc1-2:
+      ansible_host: sircc1-02152022.local
+    cc1-3:
+      ansible_host: sircc1-03152022.local
+    cc1-4:
+      ansible_host: sircc1-04152022.local
+    cc1-5:
+      ansible_host: sircc1-05152022.local
+    cc1-6:
+      ansible_host: sircc1-06152022.local
+    cc1-7:
+      ansible_host: sircc1-07152022.local
+    cc1-8:
+      ansible_host: sircc1-08152022.local
+    cc1-9:
+      ansible_host: sircc1-09152022.local
+    cc1-10:
+      ansible_host: sircc1-10152022.local
+    cc1-11:
+      ansible_host: sircc1-11152022.local
+    cc1-12:
+      ansible_host: sircc1-12152022.local
+    cc1-13:
+      ansible_host: sircc1-13152022.local
+    cc1-14:
+      ansible_host: sircc1-14152022.local
+    cc1-15:
+      ansible_host: sircc1-15152022.local
+    cc1-16:
+      ansible_host: sircc1-16152022.local
+    cc1-17:
+      ansible_host: sircc1-17152022.local
+    cc1-18:
+      ansible_host: sircc1-18152022.local
+    cc1-19:
+      ansible_host: sircc1-19152022.local
+    cc1-20:
+      ansible_host: sircc1-20152022.local
+    cc1-21:
+      ansible_host: sircc1-21152022.local
+    cc1-22:
+      ansible_host: sircc1-22152022.local
+    cc1-23:
+      ansible_host: sircc1-23152022.local
+    cc1-24:
+      ansible_host: sircc1-24152022.local
+    cc1-25:
+      ansible_host: sircc1-25152022.local
+    cc1-26:
+      ansible_host: sircc1-26152022.local
+    cc1-27:
+      ansible_host: sircc1-27152022.local
+    cc1-28:
+      ansible_host: sircc1-28152022.local
+    cc1-29:
+      ansible_host: sircc1-29152022.local
+    cc1-30:
+      ansible_host: sircc1-30152022.local
+    cc1-31:
+      ansible_host: sircc1-31152022.local
+    cc1-32:
+      ansible_host: sircc1-32152022.local
+    cc1-33:
+      ansible_host: sircc1-33152022.local
+    cc1-34:
+      ansible_host: sircc1-34152022.local
+    cc1-35:
+      ansible_host: sircc1-35152022.local
+    cc1-36:
+      ansible_host: sircc1-36152022.local
+    cc1-37:
+      ansible_host: sircc1-37152022.local
+    cc1-38:
+      ansible_host: sircc1-38152022.local
+    cc1-39:
+      ansible_host: sircc1-39152022.local
+    cc1-40:
+      ansible_host: sircc1-40152022.local
+    cc1-41:
+      ansible_host: sircc1-41152022.local
+    cc1-42:
+      ansible_host: sircc1-42152022.local
+    cc1-43:
+      ansible_host: sircc1-43152022.local
+    cc1-44:
+      ansible_host: sircc1-44152022.local
+    cc1-45:
+      ansible_host: sircc1-45152022.local
+    cc1-46:
+      ansible_host: sircc1-46152022.local
+    cc1-47:
+      ansible_host: sircc1-47152022.local
+    cc1-48:
+      ansible_host: sircc1-48152022.local
+    cc1-49:
+      ansible_host: sircc1-49152022.local
+    cc1-50:
+      ansible_host: sircc1-50152022.local
+    cc1-51:
+      ansible_host: sircc1-51152022.local
+    cc1-52:
+      ansible_host: sircc1-52152022.local
+    cc1-53:
+      ansible_host: sircc1-53152022.local
+    cc1-54:
+      ansible_host: sircc1-54152022.local
+    cc1-55:
+      ansible_host: sircc1-55152022.local
+    cc1-56:
+      ansible_host: sircc1-56152022.local
+    cc1-57:
+      ansible_host: sircc1-57152022.local
+    cc1-58:
+      ansible_host: sircc1-58152022.local
+    cc1-59:
+      ansible_host: sircc1-59152022.local
+    cc1-60:
+      ansible_host: sircc1-60152022.local    
+
+
+  vars:
+    ansible_user: "admin"
+    ansible_password: "password"
+    ansible_port: "5986"
+    ansible_connection: "winrm"
+    ansible_winrm_transport: "basic"
+    ansible_winrm_server_cert_validation: ignore
+
+

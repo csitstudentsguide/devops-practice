@@ -1,0 +1,73 @@
+pl1_windows_hosts:
+  hosts:
+    pl1-1:
+      ansible_host: sirpl1-01152022.local
+    pl1-2:
+      ansible_host: sirpl1-02152022.local
+    pl1-3:
+      ansible_host: sirpl1-03152022.local
+    pl1-4:
+      ansible_host: sirpl1-04152022.local
+    pl1-5:
+      ansible_host: sirpl1-05152022.local
+    pl1-6:
+      ansible_host: sirpl1-06152022.local
+    pl1-7:
+      ansible_host: sirpl1-07152022.local
+    pl1-8:
+      ansible_host: sirpl1-08152022.local
+    pl1-9:
+      ansible_host: sirpl1-09152022.local
+    pl1-10:
+      ansible_host: sirpl1-10152022.local
+    pl1-11:
+      ansible_host: sirpl1-11152022.local
+    pl1-12:
+      ansible_host: sirpl1-12152022.local
+    pl1-13:
+      ansible_host: sirpl1-13152022.local
+    pl1-14:
+      ansible_host: sirpl1-14152022.local
+    pl1-15:
+      ansible_host: sirpl1-15152022.local
+    pl1-16:
+      ansible_host: sirpl1-16152022.local
+    pl1-17:
+      ansible_host: sirpl1-17152022.local
+    pl1-18:
+      ansible_host: sirpl1-18152022.local
+    pl1-19:
+      ansible_host: sirpl1-19152022.local
+    pl1-20:
+      ansible_host: sirpl1-20152022.local
+    pl1-21:
+      ansible_host: sirpl1-21152022.local
+    pl1-22:
+      ansible_host: sirpl1-22152022.local
+    pl1-23:
+      ansible_host: sirpl1-23152022.local
+    pl1-24:
+      ansible_host: sirpl1-24152022.local
+    pl1-25:
+      ansible_host: sirpl1-25152022.local
+    pl1-26:
+      ansible_host: sirpl1-26152022.local
+    pl1-27:
+      ansible_host: sirpl1-27152022.local
+    pl1-28:
+      ansible_host: sirpl1-28152022.local
+    pl1-29:
+      ansible_host: sirpl1-29152022.local
+    pl1-30:
+      ansible_host: sirpl1-30152022.local    
+
+
+  vars:
+    ansible_user: "admin"
+    ansible_password: "password"
+    ansible_port: "5986"
+    ansible_connection: "winrm"
+    ansible_winrm_transport: "basic"
+    ansible_winrm_server_cert_validation: ignore
+
+

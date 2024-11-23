@@ -1,5 +1,5 @@
 - name: All Windows plays
-  hosts: all
+  hosts: pl1-19
   gather_facts: false
 
   vars:
@@ -15,7 +15,15 @@
     #   delegate_to: localhost
 
     # - name: Ping all Windows systems
-    #   ansible.builtin.win_ping:       
+    #   ansible.builtin.win_ping:
+
+    # - name: Disable Wifi adapter (netsh interface show interface)
+    #   ansible.windows.win_command:
+    #     cmd: netsh interface set interface "Wi-Fi" disable
+
+    # - name: Disable Wifi adapter
+    #   ansible.windows.win_command:
+    #     cmd: netsh interface set interface "Wi-Fi" enable
 
     # - name: Send message to Windows user
     #   community.windows.win_msg:
